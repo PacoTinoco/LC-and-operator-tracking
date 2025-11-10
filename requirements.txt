@@ -1,0 +1,15 @@
+# Core 
+streamlit
+pandas
+numpy
+
+# Visualizations
+plotly
+
+# File handling
+openpyxl
+
+# Date handling
+
+# Performance
+streamlit-extras
