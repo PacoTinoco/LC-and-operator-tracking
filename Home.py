@@ -17,6 +17,10 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+
+# Home.py (muy arriba, antes o después del título)
+st.sidebar.image("assets/PMI-LOGO.png", use_column_width=True)
+
 # =====================================================
 # 🏠 Contenido principal
 # =====================================================
