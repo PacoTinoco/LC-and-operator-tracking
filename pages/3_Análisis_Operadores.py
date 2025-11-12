@@ -27,6 +27,7 @@ st.set_page_config(
     page_icon="👷",
     layout="wide"
 )
+st.sidebar.image("assets/logo.png", use_column_width=True)
 
 # Verificar datos cargados
 data = load_from_session_state()

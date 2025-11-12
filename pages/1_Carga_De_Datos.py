@@ -17,6 +17,8 @@ st.set_page_config(
     layout="wide"
 )
 
+st.sidebar.image("assets/logo.png", use_column_width=True)
+
 # ============================
 # TÍTULO E INSTRUCCIONES
 # ============================

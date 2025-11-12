@@ -19,13 +19,15 @@ st.set_page_config(
 
 
 # Home.py (muy arriba, antes o después del título)
-st.sidebar.image("assets/PMI-LOGO.png", use_column_width=True)
+st.sidebar.image("assets/logo.png", use_column_width=True)
 
 # =====================================================
 # 🏠 Contenido principal
 # =====================================================
 st.title("📊 Dashboard de Performance - Philip Morris International")
 st.markdown("---")
+
+#set_background("assets/fondo.png", cover=True, dark_overlay=0.25)
 
 # Verificar si hay datos cargados
 data = load_from_session_state()
